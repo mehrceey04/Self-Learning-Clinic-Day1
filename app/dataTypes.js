@@ -3,24 +3,24 @@ module.exports = {
     if(typeof(value) === 'string') {
       return value.length;
     }
-    if((value === null) || typeof(value) === 'undefined') {
+    else if((value === null) || typeof(value) === 'undefined') {
       return 'no value';
     }
-    if(typeof(value) === 'boolean') {
+    else if(typeof(value) === 'function') {
+    return value(true);  
+    } 
+    else if(typeof(value) === 'boolean') {
       return value;
     }
-    if(typeof(value) === 'number') {
+    else if(typeof(value) === 'number') {
       if(value < 100) return 'less than 100';
-      if(value === 100) return 'equal to 100';
-      if(value > 100) return 'more than 100';
+      else if(value === 100) return 'equal to 100';
+      else if(value > 100) return 'more than 100';
     }
-    if(typeof(value) === 'object' && value.length >= 3) {
+    else if(typeof(value) === 'object' && value.length >= 3) {
       return value[2];
     } else { 
       return 'undefined';
     }
-    if(typeof(value) === 'function') {
-    return value(true);  
-    } 
   }
 }
