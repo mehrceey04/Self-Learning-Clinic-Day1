@@ -85,7 +85,7 @@
 
     it("should call the `callback` function with argument true, and return `called callback`", function() {
       var callback = function(arg) {
-        expect(arg).toBeTruthy();
+        expect(arg).to.equal(true);
         if(arg === true) {
           return 'called callback';
         }

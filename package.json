@@ -1,0 +1,22 @@
+{
+  "name": "quit",
+  "version": "1.0.0",
+  "description": "<h2>Self Clinic</h2>\r <p><h4>Programming Tasks for Home - Day 1</h4></p>",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehrceey04/Self-Learning-Clinic-Day1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehrceey04/Self-Learning-Clinic-Day1/issues"
+  },
+  "homepage": "https://github.com/mehrceey04/Self-Learning-Clinic-Day1#readme"
+}
