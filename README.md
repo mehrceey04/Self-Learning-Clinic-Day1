@@ -1,5 +1,5 @@
-<h2>Self Clinic</h2>
-<p><h4>Programming Tasks for Home - Day 1</h4></p>
+<h2>Self Learning Clinic</h2>
+<p><h4>Programming Tasks - Day 1</h4></p>
 
 <p>This exercise write tests and codes to pass the test.</p>
 
